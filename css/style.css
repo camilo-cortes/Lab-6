@@ -1,0 +1,73 @@
+/*! Camilo Cortes, ITMD-Lab6, style.css!*/
+
+#main-navbar{
+	background-color: blue;
+	width:100%;
+	position: relative;
+	overflow:hidden;
+}
+
+#navbar-container{
+	left:50%;
+	display:block;
+	float:left;
+	position:relative;
+}
+
+#onpage{
+	text-decoration:underline overline;
+	background-color: #000;
+}
+
+#navbar-conatiner ul{
+	right: 50%;
+	float: left;
+	margin: 0;
+	padding: 0;
+	position: relative;
+	list-style-type: none;
+}
+
+#navbar-container ul li{
+	float: left;
+	padding: 10px 20px;
+}
+
+#navbar-container ul li a{
+	color: white;
+	text-decoration: none;
+}
+
+#sidebar{
+	background-color: red;
+	width: 20%;
+	height:100%;
+	position: fixed;
+	right: 0%;
+	text-align: center;
+
+}
+
+#sidbar-container{
+	display:block;
+	text-align: center;
+	list-style-type: none;
+}
+
+#sidebar-container ul li{
+    padding: 15px;
+    list-style-type: none;
+    text-align: center;
+}
+
+#sidebar-container ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#sidebar-container ul li a{
+    list-style-type: none;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+}
